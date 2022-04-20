@@ -1,3 +1,6 @@
+const texto = document.querySelector("campoTexto");
+
+
 // solução 1
 function verificaPalindromo(string){
     if (!string) return "string inexistente";
