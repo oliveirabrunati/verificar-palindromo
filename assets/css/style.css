@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.campoTexto, button{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+}
