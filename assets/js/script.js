@@ -1,8 +1,6 @@
-// pegar o texto digitado pelo usuaria
-
-let texto = document.querySelector(".campoTexto");
 
 function verificaPalindromo() {
+    const texto = document.querySelector(".campoTexto");
 
     let palavraFrase = texto.value;
 
@@ -10,12 +8,10 @@ function verificaPalindromo() {
 
     let algunsExemplos = document.getElementById("textoExemplo");
     let exemplo = document.createElement("span");
-    // let palindromo = document.createTextNode(" ");
 
     algunsExemplos.innerHTML = "";
 
     algunsExemplos.appendChild(exemplo);
-    // exemplo.appendChild(palindromo);
 
     if(palavraFrase !== ""){
         console.log(typeof(palavraFrase));
@@ -30,9 +26,5 @@ function verificaPalindromo() {
             exemplo.appendChild(epalindromo);
         }
     }
-
-    
-
 }
-
 
